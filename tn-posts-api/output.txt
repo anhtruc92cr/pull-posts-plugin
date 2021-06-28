@@ -1,0 +1,134 @@
+
+FILE: ...cn\tnpullposts\tn-posts-api\includes\class-tn-post-author.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 5 WARNINGS AFFECTING 4 LINES
+----------------------------------------------------------------------
+ 157 | WARNING | Silencing errors is strongly discouraged. Use proper
+     |         | error checking instead. Found: @fopen( $file,...
+ 157 | WARNING | File operations should use WP_Filesystem methods
+     |         | instead of direct PHP filesystem calls. Found:
+     |         | fopen()
+ 164 | WARNING | File operations should use WP_Filesystem methods
+     |         | instead of direct PHP filesystem calls. Found:
+     |         | fwrite()
+ 166 | WARNING | File operations should use WP_Filesystem methods
+     |         | instead of direct PHP filesystem calls. Found:
+     |         | fclose()
+ 218 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+----------------------------------------------------------------------
+
+
+FILE: ...\tnpullposts\tn-posts-api\includes\class-tn-post-receiver.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 2 WARNINGS AFFECTING 3 LINES
+----------------------------------------------------------------------
+   1 | ERROR   | Missing file doc comment
+ 105 | WARNING | Found: !=. Use strict comparisons (=== or !==).
+ 199 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+----------------------------------------------------------------------
+
+
+FILE: ...cn\tnpullposts\tn-posts-api\includes\class-tn-post-sender.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AND 1 WARNING AFFECTING 2 LINES
+----------------------------------------------------------------------
+  1 | ERROR   | Missing file doc comment
+ 88 | WARNING | Not using strict comparison for in_array; supply true
+    |         | for third argument.
+----------------------------------------------------------------------
+
+
+FILE: ...oot\trucn\tnpullposts\tn-posts-api\includes\class-tn-post.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AND 13 WARNINGS AFFECTING 11 LINES
+----------------------------------------------------------------------
+  81 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+  93 | WARNING | Not using strict comparison for in_array; supply
+     |         | true for third argument.
+ 160 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 184 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 187 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 189 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 229 | WARNING | Usage of a direct database call is discouraged.
+ 229 | WARNING | Direct database call without caching detected.
+     |         | Consider using wp_cache_get() / wp_cache_set() or
+     |         | wp_cache_delete().
+ 269 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 273 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 275 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 333 | WARNING | Usage of a direct database call is discouraged.
+ 333 | WARNING | Direct database call without caching detected.
+     |         | Consider using wp_cache_get() / wp_cache_set() or
+     |         | wp_cache_delete().
+ 333 | ERROR   | Use placeholders and $wpdb->prepare(); found $sql
+ 333 | ERROR   | Use placeholders and $wpdb->prepare(); found $sql
+----------------------------------------------------------------------
+
+
+FILE: ...llposts\tn-posts-api\includes\class-tn-posts-api-activator.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 42 | WARNING | Found precision alignment of 1 spaces.
+----------------------------------------------------------------------
+
+
+FILE: ...posts\tn-posts-api\includes\class-tn-posts-api-deactivator.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 1 WARNING AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 42 | WARNING | Found precision alignment of 1 spaces.
+----------------------------------------------------------------------
+
+
+FILE: ...tnpullposts\tn-posts-api\includes\class-tn-posts-api-i18n.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 36 | ERROR | Class name is not valid; consider Tn_Posts_Api_I18n
+    |       | instead
+----------------------------------------------------------------------
+
+
+FILE: ...rucn\tnpullposts\tn-posts-api\includes\class-tn-posts-api.php
+----------------------------------------------------------------------
+FOUND 11 ERRORS AND 2 WARNINGS AFFECTING 10 LINES
+----------------------------------------------------------------------
+ 367 | WARNING | Found: ==. Use strict comparisons (=== or !==).
+ 368 | ERROR   | All output should be run through an escaping
+     |         | function (see the Security sections in the WordPress
+     |         | Developer Handbooks), found 'isset'.
+ 420 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_SERVER['HTTP_AUTHORIZATION']
+ 420 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_SERVER['HTTP_AUTHORIZATION']
+ 424 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_SERVER['REDIRECT_HTTP_AUTHORIZATION']
+ 436 | ERROR   | Empty line required before block comment
+ 439 | ERROR   | $_SERVER data not unslashed before sanitization. Use
+     |         | wp_unslash() or similar
+ 439 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_SERVER['REMOTE_ADDR']
+ 443 | ERROR   | $_SERVER data not unslashed before sanitization. Use
+     |         | wp_unslash() or similar
+ 443 | ERROR   | Detected usage of a non-sanitized input variable:
+     |         | $_SERVER['HTTP_REFERRER']
+ 447 | WARNING | This comment is 48% valid code; is this commented
+     |         | out code?
+ 455 | ERROR   | Inline comments must end in full-stops, exclamation
+     |         | marks, or question marks
+ 456 | ERROR   | Empty line required before block comment
+----------------------------------------------------------------------
+
+
+FILE: ...tpub\wwwroot\trucn\tnpullposts\tn-posts-api\includes\index.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 1 | ERROR | You must use "/**" style comments for a file comment
+ 1 | ERROR | Inline comments must end in full-stops, exclamation
+   |       | marks, or question marks
+----------------------------------------------------------------------
+
+Time: 1.02 secs; Memory: 16MB
+
